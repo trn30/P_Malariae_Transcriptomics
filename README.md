@@ -1,6 +1,14 @@
 # P_Malariae_Transcriptomics
 Source code and methodological record for the transcriptomic analysis of *Plasmodium malariae* in the mosquito *Anopheles Gambiae*
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+## Repository Scope & Intent
+
+The scripts provided here are intended to act as an audit trail. They document the exact commands, parameters, R packages, and filtering thresholds utilized during our study. **They are not intended to be a turnkey, software pipeline**, as they were executed in a specific high-performance computing (HPC) environment and rely on specific local configurations.
+
+Researchers canuse these scripts as a reference to understand our methodology in detail, or to adapt the code snippets for their own analytical workflows.
+
 
 ## Project Description
 
