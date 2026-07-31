@@ -4,7 +4,7 @@ Source code and methodological record for the transcriptomic analysis of *Plasmo
 
 ## Project Description
 
-This repository contains the computational pipelines, custom scripts, and bioinformatics workflows developed for our study. It serves as a transparent methodological record of the RNA-Seq data processing, differential expression analysis, and motif discovery applied to *Plasmodium malariae*.
+This repository contains the computational pipelines, custom scripts, and bioinformatics workflows developed for our study. It serves as a transparent methodological record of all the analysis made.
 
 For a complete overview of the study's background, methodology, and findings, please refer to our full publication. 
 
@@ -14,3 +14,18 @@ For a complete overview of the study's background, methodology, and findings, pl
 >  We investigate the transcriptome of P. malariae during transmission in the vector by analyzing RNA-seq data from midgut and salivary gland parasite stages obtained in two experimental mosquito infections with field P. malariae isolates. Our analysis identified 3,699 expressed genes, of which 263 are developmentally regulated and 309 are P. malariae specific, including genes with unknown functions and without orthologs in other Plasmodium. We detected unique expression patterns of the ApiAP2 family of transcription factors, many of which appear to function as master regulators during sporogony. Several members of multigene families, such as PIR, PHIST, and fam-l, were found to be expressed, and new families potentially showing transcriptional heterogeneity were described.
 > 
 >Our findings indicate that the P. malariae transcriptome is largely conserved; however, a distinct set of expressed genes lacking detectable orthologs may contribute to differences in transmission and virulence. Given the scarcity of genomic and transcriptomic data for this pathogen and considering the global distribution of P. malariae and its potential role in sustaining malaria transmission, this study has direct implications for malaria control and elimination efforts.
+
+## ✍️ Citation
+
+If you use the code, pipelines, or methodological approaches provided in this repository for your research, please cite our publication:
+
+**Ruiz, J. L., Díaz-Terenti, B., Lefèvre, T., Yerbanga, R. S., Otto, T. D., & Gómez-Díaz, E.** (2026). *The dynamic transcriptome of Plasmodium malariae in the mosquito*. DOI: [https://doi.org/10.1101/2025.05.05.652270]
+
+**BibTeX:**
+```bibtex
+@article{ruiz_2026_pmalariae,
+  title = {The dynamic transcriptome of Plasmodium malariae in the mosquito},
+  author = {Ruiz, J. L. and D{\'i}az-Terenti, B. and Lef{\`e}vre, T. and Yerbanga, R. S. and Otto, T. D. and G{\'o}mez-D{\'i}az, E.},
+  year = {2026},
+  doi = {[https://doi.org/10.1101/2025.05.05.652270]}
+}
