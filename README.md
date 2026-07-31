@@ -27,12 +27,12 @@ For a complete overview of the study's background, methodology, and findings, pl
 ## Code Archive Breakdown
 
 The analysis workflow is documented across the following modular scripts:
-*   **`01_XXXXX.sh`**: Records the raw data processing (KrakenUniq, SortMeRNA), quantification (CoCo), and the Differential Expression Analysis (DESeq2) comparing midgut and salivary gland stages.
+*   **`01_XXXXX.sh`**: Contains the code for raw data processing (KrakenUniq, SortMeRNA), quantification (CoCo), and the Differential Expression Analysis (DESeq2) comparing midgut and salivary gland stages.
 *   **`02_XXXXX.sh`**: Details the competitive mapping approach (HISAT2), quality filtering, duplicate marking (Picard), and read extraction.
 *   **`03_XXXXXs.R`**: Shows the analysis of no funtion gene set, also Gene Ontology (GO) enrichment analysis (using `TopGO`) and the integration of `PANNZER2` functional predictions for unannotated genes.
 *   **`04_XXXXX.sh`**: Contains the commands for analyzing ApiAP2 transcription factor expression and the exact `HOMER` commands used for promoter motif discovery.
 *   **`05_XXXXX.R`**: Obtaining the *Pm*AP2 orthologs using Best Hit (BH) ortholog detection across *P.falciparum* and *P.vivax* species of `orthologr` package.
-*   **`06_XXXXX.sh`**: Documents the identification of Hypervariable Genes (HVGs) candidates using genomic locations, BLAST, and integration with Malaria Cell Atlas (MCA) single-cell data.
+*   **`06_XXXXX.sh`**: Identification of Hypervariable Genes (HVGs) candidates using genomic locations, BLAST, and integration with Malaria Cell Atlas (MCA) single-cell data.
 *   **`07_XXXXX.R`**: Details the comparative analysis between our mosquito-stage data and previously published blood-stage dataset (Woodford et al. 2020).
 
 ## Data Availability
