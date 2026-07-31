@@ -37,3 +37,29 @@ If you use the code, pipelines, or methodological approaches provided in this re
   year = {2026},
   doi = {[https://doi.org/10.1101/2025.05.05.652270]}
 }
+
+
+## Code Archive Breakdown
+
+The analysis workflow is documented across the following modular scripts:
+
+*   **`01_complete_mapping_pipeline.sh`**: Details the competitive mapping approach (HISAT2), quality filtering, duplicate marking (Picard), and read extraction.
+*   **`02_hvg_cvg_analysis_pipeline.sh`**: Documents the identification of Hypervariable Genes (HVGs) using genomic locations, BLAST, and integration with Malaria Cell Atlas (MCA) single-cell data.
+*   **`03_rnaseq_deseq2_orthologs.sh`**: Records the raw data processing (KrakenUniq, SortMeRNA), quantification (CoCo), and the Differential Expression Analysis (DESeq2) comparing midgut and salivary gland stages.
+*   **`04_unknown_function_analysis.R`**: Shows the Gene Ontology (GO) enrichment analysis (using `TopGO`) and the integration of `PANNZER2` functional predictions for unannotated genes.
+*   **`05_apiap2_expression_and_motifs.sh`**: Contains the logic for analyzing ApiAP2 transcription factor expression and the exact `HOMER` commands used for promoter motif discovery.
+*   **`06_ortholog_detection.R`**: Demonstrates the Reciprocal Best Hit (RBH) ortholog detection across *Plasmodium* species using the `orthologr` package.
+*   **`07_blood_stage_comparison.R`**: Details the comparative analysis between our mosquito-stage data and previously published blood-stage datasets.
+
+## Data Availability
+
+To adhere to code repository best practices, **no raw data, intermediate BAM files, or generated tables are hosted here.** 
+
+*   Raw RNA-Seq `.fastq` files associated with this study are deposited in GEO under accession GSE231944 .
+*   Reference genomes were obtained from [PlasmoDB](https://plasmodb.org/) and [VectorBase](https://vectorbase.org/).
+
+
+
+
+
+
