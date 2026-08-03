@@ -27,13 +27,13 @@ For a complete overview of the study's background, methodology, and findings, pl
 ## Code Archive Breakdown
 
 The analysis workflow is documented across the following modular scripts:
-*   **`01_XXXXX.sh`**: Contains the code for raw data processing (KrakenUniq, SortMeRNA), quantification (CoCo), and the Differential Expression Analysis (DESeq2) comparing midgut and salivary gland stages.
-*   **`02_XXXXX.sh`**: Details the competitive mapping approach (HISAT2), quality filtering, duplicate marking (Picard), and read extraction.
-*   **`03_XXXXXs.R`**: Shows the analysis of no funtion gene set, also Gene Ontology (GO) enrichment analysis (using `TopGO`) and the integration of `PANNZER2` functional predictions for unannotated genes.
-*   **`04_XXXXX.sh`**: Contains the commands for analyzing ApiAP2 transcription factor expression and the exact `HOMER` commands used for promoter motif discovery.
-*   **`05_XXXXX.R`**: Obtaining the *Pm*AP2 orthologs using Best Hit (BH) ortholog detection across *P.falciparum* and *P.vivax* species of `orthologr` package.
-*   **`06_XXXXX.sh`**: Identification of Hypervariable Genes (HVGs) candidates using genomic locations, BLAST, and integration with Malaria Cell Atlas (MCA) single-cell data.
-*   **`07_XXXXX.R`**: Details the comparative analysis between our mosquito-stage data and previously published blood-stage dataset (Woodford et al. 2020).
+*   **`01_mapping_expression_DEGs.sh`**: Contains the code for raw data processing (KrakenUniq, SortMeRNA), quantification (CoCo), and the Differential Expression Analysis (DESeq2) comparing midgut and salivary gland stages.
+*   **`02_Competitive_mapping.sh`**: Details the competitive mapping approach (HISAT2), quality filtering, duplicate marking (Picard), and read extraction.
+*   **`03_No_funtion_expression.R`**: Shows the analysis of no funtion gene set, also Gene Ontology (GO) enrichment analysis (using `TopGO`) and the integration of `PANNZER2` functional predictions for unannotated genes.
+*   **`04_AP2_expression.sh`**: Contains the commands for analyzing ApiAP2 transcription factor expression and the exact `HOMER` commands used for promoter motif discovery.
+*   **`05_AP2_orthology.R`**: Obtaining the *Pm*AP2 orthologs using Best Hit (BH) ortholog detection across *P.falciparum* and *P.vivax* species of `orthologr` package.
+*   **`06_Expression_new_HVG_CVGs.sh`**: Identification of Hypervariable Genes (HVGs) candidates using genomic locations, BLAST, and integration with Malaria Cell Atlas (MCA) single-cell data.
+*   **`07_Expression_Woodford_2020.R`**: Details the comparative analysis between our mosquito-stage data and previously published blood-stage dataset (Woodford et al. 2020).
 
 ## Data Availability
 
