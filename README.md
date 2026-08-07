@@ -53,7 +53,7 @@ If you use the code, pipelines, or methodological approaches provided in this re
 ```bibtex
 @article{ruiz_2026_pmalariae,
   title = {The dynamic transcriptome of Plasmodium malariae in the mosquito},
-  author = {Ruiz, J. L. and D{\'i}az-Terenti, B. and Lef{\`e}vre, T. and Yerbanga, R. S. and Otto, T. D. and G{\'o}mez-D{\'i}az, E.},
+  author = {Ruiz, J. L. and D{\'i}az-Terenti, B. and Lef{\`e}vre, T. and Yerbanga, R. S. and Otto, T. D. and G{\'o}mez-D{\'i}az, E},
   year = {2026},
   doi = {[https://doi.org/10.1101/2025.05.05.652270]}
 }
