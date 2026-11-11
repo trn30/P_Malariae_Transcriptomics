@@ -47,16 +47,20 @@ To adhere to code repository best practices, **no raw data, intermediate BAM fil
 
 If you use the code, pipelines, or methodological approaches provided in this repository for your research, please cite our publication:
 
-**Ruiz, J. L., Díaz-Terenti, B., Lefèvre, T., Yerbanga, R. S., Otto, T. D., & Gómez-Díaz, E.** (2026). *The dynamic transcriptome of Plasmodium malariae in the mosquito*. DOI: [https://doi.org/10.1101/2025.05.05.652270]
+**The mosquito-stage transcriptome of the neglected malaria parasite Plasmodium malariae reveals species-specific gene expression signatures and functional adaptations
+Ruiz JL, Díaz-Terenti B, Lefèvre T, Yerbanga SR, Otto TD, et al. (2026) The mosquito-stage transcriptome of the neglected malaria parasite Plasmodium malariae reveals species-specific gene expression signatures and functional adaptations. PLOS Neglected Tropical Diseases 20(11): e0014845. https://doi.org/10.1371/journal.pntd.0014845
 
 **BibTeX:**
-```bibtex
-@article{ruiz_2026_pmalariae,
-  title = {The dynamic transcriptome of Plasmodium malariae in the mosquito},
-  author = {Ruiz, J. L. and D{\'i}az-Terenti, B. and Lef{\`e}vre, T. and Yerbanga, R. S. and Otto, T. D. and G{\'o}mez-D{\'i}az, E},
-  year = {2026},
-  doi = {[https://doi.org/10.1101/2025.05.05.652270]}
+@article{Ruiz2026PlasmodiumMalariae,
+  author  = {Ruiz, JL and Díaz-Terenti, B and Lefèvre, T and Yerbanga, SR and Otto, TD and others},
+  title   = {The mosquito-stage transcriptome of the neglected malaria parasite {Plasmodium malariae} reveals species-specific gene expression signatures and functional adaptations},
+  journal = {PLOS Neglected Tropical Diseases},
+  year    = {2026},
+  volume  = {20},
+  number  = {11},
+  pages   = {e0014845},
+  doi     = {10.1371/journal.pntd.0014845},
+  url     = {https://doi.org/10.1371/journal.pntd.0014845}
 }
-
 
 
